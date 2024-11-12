@@ -1,0 +1,305 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <link rel="shortcut icon" href="{% static 'img/ksklogo.jpg' %}" type="image/x-icon">
+  <title>ksk</title>
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap1.css' %}" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <!--owl slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <!-- nice select -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" integrity="sha256-mLBIhmBvigTFWPSCtvdu6a76T+3Xyt+K571hupeFLg4=" crossorigin="anonymous" />
+  <!-- font awesome style -->
+  <link href="{% static 'css/font-awesome1.min.css' %}" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="{% static 'css/style1.css' %}" rel="stylesheet" />
+  <link href="{% static 'css/main.css' %}" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="{% static 'css/responsive1.css' %}" rel="stylesheet" />
+</head>
+
+{% block content %}
+
+<body>
+  <div class="hero_area">
+    <div class="hero_bg_box">
+      <img src="{% static 'img/hero-bg.jpg' %}" alt="">
+    </div>
+    <!-- header section strats -->
+{% include "partials/navbar.html" %}
+    <!-- slider section -->
+    <section class="slider_section ">
+      <div id="customCarousel1" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container ">
+              <div class="row">
+                <div class="col-lg-10 col-md-11 mx-auto">
+                  <div class="detail-box">
+                    <h1>
+                      We Provide <br>
+                      Welding Services
+                    </h1>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio omnis fugit, sed tempora praesentium commodi error, hic recusandae repudiandae neque ad molestias, atque veritatis labore quae eveniet autem in
+                    </p>
+                    <div class="btn-box">
+                      <a href="" class="btn1">
+                        Contact Us
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container ">
+              <div class="row">
+                <div class="col-lg-10 col-md-11 mx-auto">
+                  <div class="detail-box">
+                    <h1>
+                      We Provide <br>
+                      Welding Services
+                    </h1>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio omnis fugit, sed tempora praesentium commodi error, hic recusandae repudiandae neque ad molestias, atque veritatis labore quae eveniet autem in
+                    </p>
+                    <div class="btn-box">
+                      <a href="" class="btn1">
+                        Contact Us
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container ">
+              <div class="row">
+                <div class="col-lg-10 col-md-11 mx-auto">
+                  <div class="detail-box">
+                    <h1>
+                      We Provide <br>
+                      Welding Services
+                    </h1>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio omnis fugit, sed tempora praesentium commodi error, hic recusandae repudiandae neque ad molestias, atque veritatis labore quae eveniet autem in
+                    </p>
+                    <div class="btn-box">
+                      <a href="" class="btn1">
+                        Contact Us
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel_btn-box">
+          <a class="carousel-control-prev" href="#customCarousel1" role="button" data-slide="prev">
+            <i class="bi bi-arrow-left-circle"></i>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#customCarousel1" role="button" data-slide="next">
+            <i class="bi bi-arrow-right-circle"></i>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- end slider section -->
+  </div>
+
+  <!-- Introduction section-->
+  <div class="div1">
+    <blockquote class="blockquote"> <br>
+      <h6 class="p1">A passionate Data Scientist and Developer Committed to Delivering Excellence. Bringing Over 5 Years of Experience in Data Analytics, Machine Learning and Web Development.</h6>
+    </blockquote>
+    <div >
+      <P class="hd1">Optimize your business</P>
+      <div class="grid text-center">
+        <div class="text-center">
+          <div class="row align-items-start">
+            <div class="col">
+              <p class="p2">It’s not that easy to be efficient if we don’t have the correct tools than we need. Can you imagine Batman saving Gotham City without his bat-tools?</p>
+              <p class="p2">There is no magic, just advanced technology. It’s time to elevate your business with the tools you deserve.</p>
+              <p class="p2">  Transforming Raw Data into actionable Insights, creating advanced Machine Learning Models for Predictive analysis, process automation and Artificial Intelligence.</p>
+              <p class="p2">Empower your business to make smarter, faster decisions by leveraging cutting-edge analytics, seamless automation, and intelligent systems that drive growth, efficiency, and innovation.</p>
+
+              <button type="button" class="btn btn-outline-primary">Learn more</button>
+            </div>
+            <div class="col">
+              <img src="{% static 'img\Screenshot 2024-11-11 131530.png' %}" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  </div>
+
+  <!-- start of card body-->
+  <div class="row">
+    <div class="col-sm-4 mb-3 mb-sm-0">
+      <div class="card">
+        <img src="{% static 'img/ksk (1).jpg' %}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Harnessing Machine learning for smarter decision making.</h5>
+          <p class="card-text">Ensuring seamless collaboration and code management with version control.</p>
+          <a href="#" class="btn btn-primary">Discover more</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4 mb-3 mb-sm-0">
+      <div class="card">
+        <img src="{% static 'img/ksk (2).jpg' %}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Comprehensive web scrapping service for Real-time data access.</h5>
+          <p class="card-text">Building modern responsive website with cutting edge development techniques.</p>
+          <a href="#" class="btn btn-primary">Discover more</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card">
+        <img src="{% static 'img/ksk (3).jpg' %}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Unlock the power of data with expert Analytics and Visualization.</h5>
+          <p class="card-text">Transform raw data into actionable insights. Revolutionizing business with IoT integration..</p>
+          <a href="#" class="btn btn-primary">Discover more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {% endblock content %}
+
+  <!-- info section -->
+  <section class="info_section">
+    <div class="footer">
+      <div class="info_bottom">
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="info_detail">
+              <div class="col-md-3 ">
+              </div>
+              <h5>Explore</h5>
+              <p>
+                Randomised words which don't look even slightly believable. If you are going to use a passage of
+                Lorem
+                Ipsum, you need to be sure
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="info_form">
+              <h5>
+                Get in Touch
+              </h5>
+              <form action="">
+                <input type="text" placeholder="Enter Your Email" />
+                <button type="submit">
+                  Subscribe
+                </button>
+              </form>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="info_detail">
+              <h5>
+                Follow us
+              </h5>
+              <p>
+                Randomised words which don't look even slightly believable. If you are going to use a passage of
+                Lorem
+                Ipsum, you need to be sure
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="">
+              
+              <h5>
+                <i class="bi bi-geo-alt"></i> KSK Data Company
+              </h5>
+              <ul class="info_menu">
+                <li>
+                  <a href="index.html">
+                    <i class="bi bi-facebook"></i> Facebook
+                  </a>
+                </li>
+                <li>
+                  <a href="about.html">
+                    <i class="bi bi-twitter-x"></i> Twitter
+                  </a>
+                </li>
+                <li>
+                  <a href="service.html">
+                    <i class="bi bi-linkedin"></i> LinkedIn
+                  </a>
+                </li>
+                <li>
+                  <a href="team.html">
+                    <i class="bi bi-instagram"></i> Instagram
+                  </a>
+                </li>
+               
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end info_section -->
+
+  <!-- footer section -->
+  <footer class="footer1">
+    <div class="container">
+      <p>
+        &copy; <span id="displayYear"></span> All Rights Reserved By:
+        <a href="https://kskdata.com/">&copy; ksk company</a>
+      </p>
+    </div>
+  </footer>
+  <!-- footer section -->
+
+  <!-- jQery -->
+  <script src="{% static 'js/jquery-3.4.1.min1.js' %}"></script>
+  <!-- popper js -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <!-- bootstrap js -->
+  <script src="{% static 'js/bootstrap1.js' %}"></script>
+  <!-- owl slider -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <!-- nice select -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js" integrity="sha256-Zr3vByTlMGQhvMfgkQ5BtWRSKBGa2QlspKYJnkjZTmo=" crossorigin="anonymous"></script>
+  <!-- custom js -->
+  <script src="{% static 'js/custom1.js' %}"></script>
+  <!-- Google Map -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
+  <!-- End Google Map -->
+</body>
+
+</html>
